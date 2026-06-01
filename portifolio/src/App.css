@@ -1,0 +1,116 @@
+html,body,
+#root {
+  min-height: 100vh;
+  margin: 0;
+  background: rgb(129, 69, 41);
+  border: none !important;
+}
+
+.contei_bio{ 
+  font-size: 16px;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  background: rgb(129, 69, 41);
+  margin-bottom: 24px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  border:none !important;
+}
+
+.texto_back{
+  color: aliceblue;
+  text-emphasis: none;
+  text-decoration: solid;
+  text-align: center;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(105, 55, 21);
+  color: inherit;
+  cursor: pointer;
+  padding-right: 400px;
+  width: 50px;
+}
+
+button span {
+  display: inline-block;
+}
+
+.texto_front,
+.texto_back_item {
+  display: inline-block;
+  margin: 6px 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgb(99, 46, 24);
+  color: rgb(255, 255, 255);
+  unicode-bidi: isolate;
+}
+
+
+.mim{
+  text-align: center;
+
+}
+
+  .apresentacao{
+
+    width: 30%;
+    height: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    padding-right: 400px;
+    background: rgb(129, 69, 41);
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+  h1{
+    font-size: 36px;
+    margin-bottom: 16px;
+    padding-right: 400px;
+    
+  }
+
+  h2{
+    font-size: 18px;
+    padding-right: 400px;
+    margin-top: 30px;
+    
+  }
+
+  .biografia{
+    max-width: 600px;      /* Define a largura máxima (a borda diminui aqui) */
+    width: 90%;
+    margin-bottom: 24px;
+    margin: 20px auto;
+    padding: 32px;
+    padding-right: 400px;
+    background: rgb(129, 69, 41);
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+  
+  }
+
+  .primeiro_Texto{
+    line-height: 1.8;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+  }
+
+  .segundo_Texto{
+    line-height: 1.8;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+  }

@@ -1,0 +1,193 @@
+html,body,
+#root {
+  min-height: 100vh;
+  margin: 0;
+  background: rgb(129, 69, 41);
+  border: none !important;
+}
+
+.contei_bio{ 
+  font-size: 16px;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  background: rgb(129, 69, 41);
+  margin-bottom: 24px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  border:none !important;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(105, 55, 21);
+  color: inherit;
+  cursor: pointer;
+  padding-right: 400px;
+  width: 20%;
+  margin-bottom: 20px;
+  height: 40px;
+
+}
+
+button span {
+  display: inline-block;
+}
+
+.texto_front,
+.texto_back {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 6px 8px;
+  padding: 6px 10px;
+  color: rgb(255, 255, 255);
+
+}
+
+.caixinha_brow{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding-left: 100px;
+}
+
+.mim{
+  text-align: center;
+
+}
+
+  .apresentacao{
+
+    width: 30%;
+    height: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    padding-right: 400px;
+    background: rgb(129, 69, 41);
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+  h1{
+    font-size: 36px;
+    margin-bottom: 16px;
+    padding-right: 400px;
+    
+  }
+
+  h2{
+    font-size: 18px;
+    padding-right: 400px;
+    margin-top: 30px;
+    
+  }
+
+  .biografia{
+    max-width: 600px;      /* Define a largura máxima (a borda diminui aqui) */
+    width: 90%;
+    margin-bottom: 24px;
+    margin: 20px auto;
+    padding: 32px;
+    padding-right: 400px;
+    background: rgb(129, 69, 41);
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+  
+  }
+
+  .primeiro_Texto{
+    line-height: 1.8;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+  }
+
+  .segundo_Texto{
+    line-height: 1.8;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+  }
+  .terceiro_Texto{
+    line-height: 1.8;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+  }
+
+  .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    background-color: #5c3d2e;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+  }
+
+  .container-cards{
+    display: 'flex';
+    gap: '20px';
+    flex-wrap: 'wrap'; 
+    margin-top: '20px';
+  }
+  .card-projeto{
+    border: '1px solid #ccc';
+    border-radius: '8px';
+    width: '300px';
+    overflow: 'hidden' ;
+  }
+
+  .imagem-projeto{
+    width: '50%';
+    max-width: 700px;
+    height: '100px';
+    object-fit: 'cover' ;
+  }
+
+  .conteudo-card{
+    padding: '15px';
+  }
+
+  .titulo-projeto{
+    margin: '0 0 10px 0';
+  }
+
+  .descricao-projeto{
+     font-size: '14px';
+      color: '#666';
+       min-height: '40px;' 
+  }
+
+  .tech-usada{
+    display: 'flex';
+    gap: '5px';
+    flex-wrap: 'wrap';
+    margin-top: '15px'; 
+  }
+
+  .badge-tecnologia{
+    background-color: '#e0e0e0';
+    padding: '4px 8px';
+    border-radius: '4px';
+    font-size: '12px';
+    font-weight: 'bold';
+  }
+
+  Link{
+    border: '1px solid #6e4620';
+    padding: '10px 20px';
+    border-Radius: '5px'; 
+    text-Decoration: 'none';
+    color: '#fff'
+  }

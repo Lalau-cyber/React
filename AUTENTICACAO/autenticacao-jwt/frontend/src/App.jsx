@@ -1,0 +1,46 @@
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Login from './components/Login';
+import Registrar from './components/Registrar.jsx'
+import ProtectedRoute from './ProtectedRoute';
+import Perfil from './components/Perfil.jsx'
+import Configuracoes from './components/Configuracoes.jsx';
+
+function Dashboard() {
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    window.location.reload();
+  };
+
+  return (
+    <div>
+      <h2> Bem-vindo ao Dashboard!</h2>
+      <button onClick={handleLogout}>Sair</button>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navigate to="/login" replace />} />
+        <Route path="/login" element={<Login />} />
+
+        <Route 
+          path="/dashboard" 
+          element={
+            <ProtectedRoute>
+              <Dashboard />
+            </ProtectedRoute>
+          } 
+        />
+
+        <Route path="/registrar" element={<Registrar />} />
+         <Route path="/perfil" element={<Perfil />} />
+        <Route path="*" element={<Navigate to="/login" replace />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
